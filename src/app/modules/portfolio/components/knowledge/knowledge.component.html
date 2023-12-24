@@ -3,13 +3,15 @@
   <ul>
     @for(item of arrayKnowledge(); track item){
     <li>
-      <img
-        [src]="item.src"
-        [alt]="item.alt"
-        loading="lazy"
-        width="22px"
-        height="24px"
-      />
+      <a [href]="item.href" target="_blank">
+        <img
+          [src]="item.src"
+          [alt]="item.alt"
+          loading="lazy"
+          width="22px"
+          height="24px"
+        />
+      </a>
     </li>
     }
   </ul>
