@@ -22,7 +22,22 @@ import { DialogProjectsComponent } from '../dialog/dialog-projects/dialog-projec
 export class ProjectsComponent {
   #dialog = inject(MatDialog);
 
-  public arrayProjects = signal<IProjects[]>([]);
+  public arrayProjects = signal<IProjects[]>([
+     {
+        src: 'string',
+        alt: 'SOSA',
+        title: 'SOSA',
+        with: '200',
+        height: '600',
+        description: 'Esse projeto foi desenvolvido para a CAED do IFRO Campus Cacoal em colaboração com Julio César Aguiar, vide GitHub para mais informações',
+        links: [
+          {
+            name: 'SOSA',
+            href: 'https://sosa-frontend.vercel.app/',
+          }
+        ]
+      }
+  ]);
 
   public openDialog(data: IProjects) {
     this.#dialog.open(DialogProjectsComponent, {
