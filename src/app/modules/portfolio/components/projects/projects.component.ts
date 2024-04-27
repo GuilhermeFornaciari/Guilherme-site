@@ -24,7 +24,7 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
      {
-        src: 'assets/imgs/sosa.png',
+        src: 'assets/img/sosa.png',
         alt: 'SOSA',
         title: 'SOSA',
         with: '200',
@@ -33,7 +33,7 @@ export class ProjectsComponent {
         links: [
           {
             name: 'Conheça já',
-            href: 'https://sosa-frontend.vercel.app/',
+            href: 'https://sosa-frontend.vercel.app/login',
           }
         ]
       }
