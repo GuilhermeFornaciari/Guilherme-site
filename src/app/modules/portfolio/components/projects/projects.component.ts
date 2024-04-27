@@ -41,7 +41,7 @@ export class ProjectsComponent {
         src: 'assets/img/urflow.png',
         alt: 'UR-Flow',
         title: 'UR-Flow',
-        with: '330',
+        with: '320',
         height: '140',
         description: 'Esse projeto foi desenvolvido para a CAED do IFRO Campus Cacoal em colaboração com Julio César Aguiar, vide GitHub para mais informações',
         links: [
