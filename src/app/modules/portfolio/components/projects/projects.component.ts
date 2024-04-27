@@ -27,13 +27,27 @@ export class ProjectsComponent {
         src: 'assets/img/sosa.png',
         alt: 'SOSA',
         title: 'SOSA',
-        with: '200',
+        with: '1020',
         height: '600',
         description: 'Esse projeto foi desenvolvido para a CAED do IFRO Campus Cacoal em colaboração com Julio César Aguiar, vide GitHub para mais informações',
         links: [
           {
             name: 'Conheça já',
             href: 'https://sosa-frontend.vercel.app/login',
+          }
+        ]
+      },
+      {
+        src: 'assets/img/urflow.png',
+        alt: 'UR-Flow',
+        title: 'UR-Flow',
+        with: '400',
+        height: '720',
+        description: 'Esse projeto foi desenvolvido para a CAED do IFRO Campus Cacoal em colaboração com Julio César Aguiar, vide GitHub para mais informações',
+        links: [
+          {
+            name: 'Conheça já',
+            href: 'https://ur-flow.vercel.app/login',
           }
         ]
       }
