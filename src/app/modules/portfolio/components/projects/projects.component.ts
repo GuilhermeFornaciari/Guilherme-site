@@ -27,8 +27,8 @@ export class ProjectsComponent {
         src: 'assets/img/sosa.png',
         alt: 'SOSA',
         title: 'SOSA',
-        with: '360',
-        height: '160',
+        with: '330',
+        height: '140',
         description: 'Esse projeto foi desenvolvido para a CAED do IFRO Campus Cacoal em colaboração com Julio César Aguiar, vide GitHub para mais informações',
         links: [
           {
@@ -41,8 +41,8 @@ export class ProjectsComponent {
         src: 'assets/img/urflow.png',
         alt: 'UR-Flow',
         title: 'UR-Flow',
-        with: '360',
-        height: '160',
+        with: '330',
+        height: '140',
         description: 'Esse projeto foi desenvolvido para a CAED do IFRO Campus Cacoal em colaboração com Julio César Aguiar, vide GitHub para mais informações',
         links: [
           {
