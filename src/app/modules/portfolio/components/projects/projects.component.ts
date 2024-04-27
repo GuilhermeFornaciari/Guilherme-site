@@ -38,7 +38,7 @@ export class ProjectsComponent {
         ]
       },
       {
-        src: 'assets/img/urflow.png',
+        src: 'assets/img/urflow.jpg',
         alt: 'UR-Flow',
         title: 'UR-Flow',
         with: '320',
