@@ -24,7 +24,7 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
      {
-        src: 'string',
+        src: 'assets/imgs/sosa.png',
         alt: 'SOSA',
         title: 'SOSA',
         with: '200',
@@ -32,7 +32,7 @@ export class ProjectsComponent {
         description: 'Esse projeto foi desenvolvido para a CAED do IFRO Campus Cacoal em colaboração com Julio César Aguiar, vide GitHub para mais informações',
         links: [
           {
-            name: 'SOSA',
+            name: 'Conheça já',
             href: 'https://sosa-frontend.vercel.app/',
           }
         ]
